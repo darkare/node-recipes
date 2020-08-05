@@ -1,0 +1,21 @@
+{
+  "name": "node-recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon hello-world.js",
+    "mongodb": "nodemon mongoDb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
